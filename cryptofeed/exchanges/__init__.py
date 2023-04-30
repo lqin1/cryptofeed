@@ -41,6 +41,7 @@ from .independent_reserve import IndependentReserve
 from .kraken import Kraken
 from .kraken_futures import KrakenFutures
 from .kucoin import KuCoin
+from .mexc import Mexc
 from .okcoin import OKCoin
 from .okx import OKX
 from .poloniex import Poloniex
@@ -83,6 +84,7 @@ EXCHANGE_MAP = {
     KRAKEN_FUTURES: KrakenFutures,
     KRAKEN: Kraken,
     KUCOIN: KuCoin,
+    MEXC: Mexc,
     OKCOIN: OKCoin,
     OKX_str: OKX,
     PHEMEX: Phemex,
